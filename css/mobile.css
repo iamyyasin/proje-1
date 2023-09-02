@@ -1,0 +1,40 @@
+/* responsive */
+@media (max-width: 750px) {
+    body {
+        padding: 0;
+    }
+
+    /* header-responsive */
+    #header {
+        padding: 0 150px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+
+    #header h1 {
+        font-size: 35px;
+    }
+
+    /* main-responsive */
+    #main {
+        padding: 0 30px;
+        margin-top: 50px;
+    }
+
+    #main p {
+        line-height: 35px;
+    }
+
+    #main ul {
+        padding-top: 40px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #main ul li {
+        padding-bottom: 35px;
+    }
+}
